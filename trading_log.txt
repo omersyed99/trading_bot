@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/ec2-user/TradingBot/trading_bot.py", line 6, in <module>
+    from config import api, SYMBOL, TRADE_QUANTITY, STOP_LOSS_PERCENT, TAKE_PROFIT_PERCENT
+ImportError: cannot import name 'api' from 'config' (/home/ec2-user/TradingBot/config.py)

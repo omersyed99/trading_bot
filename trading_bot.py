@@ -1,9 +1,8 @@
 # trading_bot.py - Main Trading Bot Script
 
 import time
-import numpy as np
-from market_utils import is_market_open, get_latest_stock_price
-from config import api, SYMBOL, TRADE_QUANTITY, STOP_LOSS_PERCENT, TAKE_PROFIT_PERCENT
+from market_utils import is_market_open, get_latest_stock_price, api  # Import API correctly
+from config import SYMBOL, TRADE_QUANTITY, STOP_LOSS_PERCENT, TAKE_PROFIT_PERCENT
 
 def execute_trade(action):
     """Executes buy or sell orders with stop-loss & take-profit."""
